@@ -1,7 +1,7 @@
 """
 704. 二分查找 | 数组 | Easy | 2026-09-15
 
-思路：定义左闭右闭区间 [left, right]，所以 while 用 <=
+思路：定义左闭右闭区间 [left, right]，所以 while 用 <=,同时left需要middle加1,right需要middle减一
 卡点：一开始写成 left < right，边界处理错了
 复杂度：时间 O(log n) / 空间 O(1)
 
